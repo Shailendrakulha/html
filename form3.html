@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="icon" href="H:Html/Railways/10231-man-judge-icon.png">
+    <style>
+        .tbl
+        {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body bgcolor="PowderBlue">
+    
+    <center>
+        <table bgcolor = "PowderBlue">
+            
+            <th align="center"><b><font size = "6" color = "green" >Student Registration Form</b></font></th>
+        
+        </table>
+    </center>
+
+<center>
+    <table  cellspacing = "10"  class="tbl">
+        
+                <tr>
+                    <td colspan="2"><b> FIRST NAME</b></td>
+                    <td><input type = "text" maxlength = "30"> &nbsp(max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>LAST NAME</b></td>
+                    <td><input type = "text" maxlength = "30"> &nbsp(max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>DATE OF BIRTH</b></td>
+                    <td><input type = "date" > &nbsp</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>EMAIL ID</b></td>
+                    <td><input type = "email" > &nbsp</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>MOBILE NUMBER</b></td>
+                    <td><input type = "tel" maxlength="10" > &nbsp(10 digit number)</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>GENDER </b></td>
+                    <td><input type = "radio"  name="gen">Male
+                    <input type = "radio"  name="gen">FeMale</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>ADDRESS</b></td>
+                    <td>
+                        <textarea name="" id="" cols="60" rows="5" placeholder="Enter your Address here"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>CITY</b></td>
+                    <td><input type = "text">&nbsp(max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>PIN CODE</b></td>
+                    <td><input type = "tel">&nbsp(6 digit number)</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>STATE</b></td>
+                    <td><input type = "tel">&nbsp(max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>COUNTRY</b></td>
+                    <td><select name="" id="1">
+                        <option value="">India</option>
+                        <option value="">Sri lanka</option>
+                        <option value="">Nepal</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>HOBBIES</b></td>
+                    <td><input type = "checkbox"  name="hb">Drawing
+                    <input type = "checkbox"  name="hb">Sleeping
+                    <input type = "checkbox"  name="hb">Sketching
+                    <input type = "checkbox" name="hb">Others</td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><b>QUALIFICATION </b></td> 
+                    <td>
+                        <table border="1" cellpadding ="3">
+                            <tr>
+                                <td colspan="2" align="right" ><b>S.No</b></td>
+                                <td><b>Examination</b></td>
+                                <td><b>Board</b></td>
+                                <td><b>Percentage</b></td>
+                                <td><b>Year of Passing</b></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" align="right"><b>1.</b></td>
+                                <td><b>Class X</b></td>
+                                <td><b><input type="text" max length="10"></b></td>
+                                <td><b><input type="text"></b></td>
+                                <td><b><input type="text"></b></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" align="right"><b>2.</b></td>
+                                <td><b>Class XII</b></td>
+                                <td><b><input type="text" max length="10"></b></td>
+                                <td><b><input type="text" ></b></td>
+                                <td><b><input type="text"></b></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" align="right"><b>3.</b></td>
+                                <td><b>Graduation</b></td>
+                                <td><b><input type="text"max length="10"></b></td>
+                                <td><b><input type="text"></b></td>
+                                <td><b><input type="text"></b></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" align="right"><b>4.</b></td>
+                                <td><b>Masters</b></td>
+                                <td><b><input type="text"max length="10"></b></td>
+                                <td><b><input type="text"></b></td>
+                                <td><b><input type="text"></b></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="4" align="right">(10 char max)</td>
+                                <td align="right">(Upto 2 decimal)</td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>COURSE<br>APPLIED FOR</b></td>
+                    <td>
+                        BCA<input type = "radio"  name="cor">
+                        B.Com<input type = "radio"  name="cor">
+                        B.Sc<input type = "radio"  name="cor">
+                        B.A<input type = "radio" name="cor">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                        
+                    </td>
+                </tr>
+                
+        
+    </table>
+</center>
+</body>
+</html>
